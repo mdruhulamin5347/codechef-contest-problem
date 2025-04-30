@@ -17,6 +17,5 @@ int main(){
     else if( n >= 8 && n <= 10){
         cout << 9 << endl;
     }
-
     return 0;
 }
