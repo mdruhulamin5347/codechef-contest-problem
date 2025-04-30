@@ -23,7 +23,6 @@ int main(){
                 flag = false;
             }
         }
-
         if(flag && s1_cnt >= s2_cnt && (s1_cnt - s2_cnt) % 2 == 0){
             cout << "Yes" << endl;
         }
