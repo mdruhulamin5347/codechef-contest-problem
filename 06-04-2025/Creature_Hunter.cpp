@@ -31,24 +31,24 @@ int main()
         }
         else{
             if(max_2 > max_1 * 2){
-                int atteckNeed = h / max_2;
-                if( max_2 * atteckNeed == h){
-                    cout << atteckNeed * 2 <<endl;
+                int ans = h / max_2;
+                if( max_2 * ans == h){
+                    cout << ans * 2 <<endl;
                 }
-                else if(max_2 * atteckNeed + max_1 >= h){
-                    cout << atteckNeed * 2 + 1 <<endl;
+                else if(max_2 * ans + max_1 >= h){
+                    cout << ans * 2 + 1 <<endl;
                 }
                 else{
-                    cout << atteckNeed * 2 + 2 <<endl;
+                    cout << ans * 2 + 2 <<endl;
                 }
             }
             else{
-                int atteckNeed = h  / max_1;
-                if(atteckNeed * max_1 == h){
-                    cout << atteckNeed <<endl;
+                int ans = h  / max_1;
+                if(ans * max_1 == h){
+                    cout << ans <<endl;
                 }
                 else{
-                    cout << atteckNeed + 1 <<endl;
+                    cout << ans + 1 <<endl;
                 }
             }
         }
