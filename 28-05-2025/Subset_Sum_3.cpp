@@ -1,5 +1,6 @@
 
 
+// 1 number solution
 
 // #include <bits/stdc++.h>
 // using namespace std;
@@ -46,6 +47,8 @@
 //     return 0;
 // }
 
+
+// perfect and optimize solution
 
 #include <bits/stdc++.h>
 using namespace std;
