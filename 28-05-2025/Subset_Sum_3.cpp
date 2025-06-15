@@ -1,54 +1,57 @@
 
 
-// 1 number solution
+// // 1 number solution
 
-#include <bits/stdc++.h>
-using namespace std;
+// #include <bits/stdc++.h>
+// using namespace std;
 
-int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
+// int main(){
+//     ios::sync_with_stdio(false);
+//     cin.tie(NULL);
     
-    int t;
-    cin >> t;
+//     int t;
+//     cin >> t;
 
-    while(t--){
-        int n;
-        cin >> n;
-        vector<int> v(n);
-        for(int i=0; i<n; i++){
-            cin >> v[i];
-        }
+//     while(t--){
+//         int n;
+//         cin >> n;
+//         vector<int> v(n);
+//         for(int i=0; i<n; i++){
+//             cin >> v[i];
+//         }
 
-        int l=0,r=0;
-        int sum = 0;
-        bool found = false;
-        for(; l<n; ){
-            while(r < n){
-                sum += v[r];
-                if(sum % 3 == 0){
-                    found = true;
-                }
-                r++;
-            }
+//         int l=0,r=0;
+//         int sum = 0;
+//         bool found = false;
+//         for(; l<n; ){
+//             while(r < n){
+//                 sum += v[r];
+//                 if(sum % 3 == 0){
+//                     found = true;
+//                 }
+//                 r++;
+//             }
             
-            sum -= v[l];
-            l++;
+//             sum -= v[l];
+//             l++;
 
-        }
+//         }
         
-        if(found){
-            cout << "Yes" << endl;
-        } else {
-            cout << "No" << endl;
-        }
-    }
+//         if(found){
+//             cout << "Yes" << endl;
+//         } else {
+//             cout << "No" << endl;
+//         }
+//     }
     
-    return 0;
-}
+//     return 0;
+// }
 
 
 // perfect and optimize solution
+
+
+
 
 #include <bits/stdc++.h>
 using namespace std;
